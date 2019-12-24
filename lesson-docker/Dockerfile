@@ -12,7 +12,7 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # copy our application inside the container
-COPY hello-node-app/* /app/
+COPY lesson-docker/hello-node-app/* /app/
 
 # tell docker what port to expose
 EXPOSE 8000
